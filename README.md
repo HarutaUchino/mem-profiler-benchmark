@@ -1,4 +1,4 @@
-# mem-profiler-benchmark
+# Mem Profiler Benchmark
 ## mimalloc Performance Benchmarking Script
 
 This repository contains a Bash script for accurately benchmarking the performance of the mimalloc memory allocator in a multi-threaded environment. The script goes beyond simply measuring memory usage within the test program itself, instead leveraging OS-level process information for a more comprehensive and precise evaluation. This script utilizes the xmalloc-test benchmark program, originally developed by Daan Leijen and available at https://github.com/daanx/mimalloc-bench/tree/master/bench/xmalloc-test, to stress-test the memory allocator and generate realistic memory usage patterns.
