@@ -32,7 +32,7 @@ graph TD
     D --> E{Loop through worker thread counts}
     E --> F{Loop through object sizes}
     F --> G{Run test case}
-    G --> H{Compile test program (if not already compiled)}
+    G --> H{Compile test program if not already compiled}
     H --> I{Set LD_PRELOAD to mimalloc library}
     I --> J{Run test program for specified duration and collect memory usage data from /proc}
     J --> K{Reset LD_PRELOAD}
